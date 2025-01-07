@@ -1,0 +1,109 @@
+{
+  "NAVBAR": {
+    "HOME": "Início",
+    "ABOUT": "Sobre",
+    "PROJECTS": "Projetos"
+  },
+  "HOME": {
+    "HEADING": "Transformando ideias em realidade através de código e design.",
+    "DESCRIPTION": "Como um habilidoso Desenvolvedor Fullstack, estou dedicado a transformar ideias em aplicações web inovadoras. Conheça um pouco mais sobre mim, e veja alguns dos meus projetos.",
+    "BUTTON": "Currículo"
+  },
+  "ABOUT": {
+    "TITLE": "A paixão alimenta o propósito!",
+    "BIOGRAPHY": {
+      "HEADING": "SOBRE MIM",
+      "PARAGRAPH_1": "Sou um jovem de 23 anos, graduando em Sistemas de Informação, com experiência prática como Desenvolvedor Fullstack Freelancer, adquirida ao longo dos últimos anos. Essa vivência proporcionou uma visão abrangente do ciclo de desenvolvimento de aplicações web, além do domínio de tecnologias como TypeScript, JavaScript, Angular, HTML e CSS no frontend, e Node.js no backend, com sólido conhecimento em bancos de dados SQL.",
+      "PARAGRAPH_2": "Durante a graduação, participei de diversos projetos acadêmicos, abrangendo desde o desenvolvimento de aplicações web até soluções com ferramentas low-code, como o Sydle One, o que me permitiu desenvolver uma abordagem técnica diversificada e eficaz. Paralelamente, tenho buscado aprimorar minhas competências profissionais, estando atualmente em processo de certificação em Java para ampliar meu leque de habilidades e conhecimentos."
+    },
+    "GRADE": {
+    "TITLE": "FORMAÇÃO",
+    "ITEMS": [
+      {
+        "COLLEGE": "PUC Minas - Pontifícia Universidade Católica de Minas Gerais",
+        "COURSE": "SISTEMAS DE INFORMAÇÃO",
+        "STARTEND": "Previsão: 2023 - 2027"
+      },
+      {
+        "COLLEGE": "UFMG - Universidade Federal de Minas Gerais",
+        "COURSE": "GESTÃO DE SERVIÇOS DE SAÚDE",
+        "STARTEND": "Interrompido: 2019 - 2023"
+      }
+    ]
+    },
+    "SKILLS": {
+      "TITLE": "HABILIDADES",
+      "LIST": [
+      "Desenvolvimento Web",
+      "Fullstack",
+      "Lógica de Programação",
+      "Boas práticas",
+      "Agile/Scrum",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "Angular",
+      "Java",
+      "Node.js",
+      "Prisma ORM",
+      "MySQL",
+      "Banco de Dados",
+      "Comunicativo",
+      "Trabalho em Equipe",
+      "Adaptabilidade",
+      "Resolução de Problemas",
+      "Empatia",
+      "Proatividade",
+      "Aprendizado Contínuo",
+      "Gestão de Tempo",
+      "Mentoria",
+      "Pontualidade",
+      "Compromisso",
+      "Carisma",
+      "Ética de Trabalho"
+      ]
+    },
+    "EXPERIENCE": {
+      "TITLE": "EXPERIÊNCIA",
+      "ITEMS": [
+        {
+          "POSITION": "Desenvolvedor Fullstack",
+          "PERIOD": "01/2024 - Atualmente | Freelancer",
+          "DESCRIPTION": "Como desenvolvedor fullstack júnior, trabalho no desenvolvimento de componentes frontend utilizando Angular e TypeScript, garantindo que a interface seja responsiva e funcione bem em diversos dispositivos. Também implemento validações para assegurar dados corretos. No backend, construo APIs com Node.js e utilizo Prisma para interagir com bancos de dados SQL de forma eficiente, realizando consultas complexas e mantendo a organização do código. Trabalho de forma colaborativa com a equipe, aprendendo e aprimorando minhas habilidades em SQL e TypeScript para garantir a integração eficiente entre frontend e backend em cada projeto."
+        },
+        {
+          "POSITION": "Gerente Administrativo",
+          "PERIOD": "01/2020 - 04/2023 | Autoweb Veículos",
+          "DESCRIPTION": "Como gerente de uma agência de veículos, era responsável pela vistoria e precificação de todos os automóveis que pudessem ser adquiridos pela loja, pela venda e pós-venda dos veículos, garantindo que os clientes recebessem um atendimento de qualidade e que todas as etapas da negociação fossem concluídas com eficiência. Gerenciava as relações comerciais com fornecedores e clientes, sempre buscando a satisfação e a fidelização. Também organizava as equipes, acompanhando seu desempenho e promovendo a capacitação dos colaboradores. Além disso, atuava na resolução de conflitos, assegurando um ambiente de trabalho harmonioso e solucionando problemas de formas eficazes."
+        },
+        {
+          "POSITION": "Auxiliar Administrativo",
+          "PERIOD": "05/2023 - 06/2023 | João Centro Automotivo",
+          "DESCRIPTION": "Apesar de ter atuado como auxiliar administrativo em uma oficina mecânica por um período curto, cobrindo a ausência de um colaborador em férias, pude adquirir valioso conhecimento técnico sobre veículos e processos mecânicos. Esse período me proporcionou uma compreensão mais aprofundada dos aspectos técnicos relacionados à manutenção e reparação de carros. Além disso, pude aprimorar minhas habilidades em atendimento ao cliente, aprendendo a lidar com diferentes tipos de demandas e situações. Evoluindo também minha capacidade de resolver conflitos de forma eficaz, mesmo em situações delicadas e estressantes, mantendo sempre o foco na satisfação do cliente e na resolução dos problemas de maneira ágil e profissional. Me destacando sempre em minha adaptação ao ambiente em que estou."
+        }
+      ]
+    }
+  },
+  "PROJECTS": {
+    "TITLE": "Projetos",
+    "CARDS": [
+      {
+        "TITLE": "SOS Baba",
+        "DESCRIPTION": "Projeto desenvolvido para reunir em um único sistema, a possibilidade de babás conseguirem oportunidades de trabalho, e mães conseguirem pessoas confiáveis para prestar o serviço de cuidadora."
+      },
+      {
+        "TITLE": "Kilombu",
+        "DESCRIPTION": "Sistema criado para uma loja de roupas, com o intuito de tornar mais acessível às pessoas que possuem interesse na cultura Africana, as roupas pertencentes à ela."
+      },
+      {
+        "TITLE": "FAM",
+        "DESCRIPTION": "Sistema projetado para facilitar o contato entre expositores e lojistas do ramo da moda. Tornando o contato entre eles mais direto, e simplificado pela web, trabalhando com a exposição de seus produtos e com um dashboard iterativo para cada estabelecimento."
+      },
+      {
+        "TITLE": "Em breve",
+        "DESCRIPTION": "Em breve..."
+      }
+    ]
+  }
+}

@@ -1,1 +1,151 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
+.example-sidenav {
+  transform: translateX(-100%);
+}
+
+.mat-drawer-opened .example-sidenav {
+  transform: translateX(0);
+}
+
+mat-drawer {
+  width: 35vw !important;
+  min-width: 255px !important;
+  padding: 20px !important;
+  height: 100vh !important;
+  position: fixed !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.botao-primario {
+  height: 39px;
+  border-radius: 8px;
+  background-color: #7001FD;
+  color: white;
+  border: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.botao-secundario {
+  height: 39px;
+  border-radius: 8px;
+  border: 1px solid #7001FD;
+  background-color: white;
+  color: #7001FD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.botao-white {
+  border-radius: 8px;
+  background-color: #7001FD;
+  color: white;
+  border: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 10px 38px;
+  font-weight: 600;
+}
+
+.botao-dark  {
+  border-radius: 8px;
+  border: 1px solid #212121;
+  background-color: white;
+  color: #212121;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 10px 38px;
+  font-weight: 600;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #C2C2C2; /* cor do texto "OR" */
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.divider::before,
+.divider::after {
+  content: " ";
+  flex: 1;
+  border-bottom: 1px solid #C2C2C2; /* linha pontilhada */
+  margin: 0 10px; /* espaço entre o texto e as linhas */
+}
+
+html, body {
+  height: 100%;
+}
+body {
+   margin: 0;
+   font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.social_medias {
+  .mat-mdc-form-field-subscript-wrapper {
+    display: none !important;
+  }
+  .mdc-text-field--filled {
+    --mdc-filled-text-field-active-indicator-height: 0px !important;
+    --mdc-filled-text-field-focus-active-indicator-height: 0px !important;
+  }
+  .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+    background-color: #EEE !important;
+  }
+  .mat-mdc-form-field-focus-overlay {
+    background-color: #EEE !important;
+  }
+  .mdc-text-field--no-label:not(.mdc-text-field--outlined):not(.mdc-text-field--textarea) .mat-mdc-form-field-infix {
+    padding: 0px !important;
+  }
+  .mdc-text-field {
+    padding: 0px !important;
+  }
+  .mat-mdc-form-field-infix {
+    // border-bottom: 1px solid #212121;
+    width: 50px !important;
+    height: 30px !important;
+    min-height: min-content !important;
+  }
+  .mat-mdc-select-arrow svg {
+    fill: #212121 !important;
+  }
+  .mat-mdc-select {
+    margin-top: 3px !important;
+  }
+}
+
+div.mat-mdc-select-panel {
+  padding: 0px !important;
+  box-shadow: none !important;
+  background-color: #EEE !important;
+
+  .mat-mdc-option.mdc-list-item--selected:not(.mdc-list-item--disabled) .mdc-list-item__primary-text {
+    color: #00674f;
+  }
+
+  .mat-pseudo-checkbox {
+    display: none !important;
+  }
+}

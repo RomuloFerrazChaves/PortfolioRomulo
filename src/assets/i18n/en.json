@@ -1,0 +1,117 @@
+{
+  "NAVBAR": {
+    "HOME": "Home",
+    "ABOUT": "About",
+    "PROJECTS": "Projects"
+  },
+
+  "HOME": {
+    "HEADING": "Turning ideas into reality through code and design.",
+    "DESCRIPTION": "As a skilled Fullstack Developer, I am dedicated to transforming ideas into innovative web applications. Learn more about me and check out some of my projects.",
+    "BUTTON": "Resume"
+  },
+
+  "ABOUT": {
+    "TITLE": "Passion fuels purpose!",
+    "BIOGRAPHY": {
+      "HEADING": "ABOUT ME",
+      "PARAGRAPH_1": "I am a 23-year-old young man, graduating in Information Systems, with practical experience as a Freelance Fullstack Developer, acquired over the last few years. This experience provided a comprehensive view of the web application development cycle, in addition to mastering technologies such as TypeScript, JavaScript, Angular, HTML and CSS on the frontend, and Node.js on the backend, with solid knowledge of SQL databases.",
+      "PARAGRAPH_2": "During my degree, I participated in several academic projects, ranging from the development of web applications to solutions with low-code tools, such as Sydle One, which allowed me to develop a diverse and effective technical approach. At the same time, I have sought to improve my professional skills, currently in the Java certification process to expand my range of skills and knowledge."
+    },
+
+    "GRADE": {
+      "TITLE": "FORMATION",
+      "ITEMS": [
+        {
+          "COLLEGE": "PUC Minas - Pontifícia Universidade Católica de Minas Gerais",
+          "COURSE": "INFORMATION SYSTEMS",
+          "STARTEND": "Prevision: 2023 - 2027"
+        },
+        {
+          "COLLEGE": "UFMG - Universidade Federal de Minas Gerais",
+          "COURSE": "HEALTH SERVICES MANAGEMENT",
+          "STARTEND": "Interrupted: 2019 - 2023"
+        }
+      ]
+
+    },
+
+    "SKILLS": {
+      "TITLE": "SKILLS",
+      "LIST": [
+           "Web Development",
+"Fullstack",
+"Programming Logic",
+"Clean Code",
+"Agile/Scrum",
+"HTML",
+"CSS",
+"JavaScript",
+"TypeScript",
+"Angular",
+"Java",
+"Node.js",
+"Prisma ORM",
+"MySQL",
+"Database",
+"Communicative",
+"Teamwork",
+"Adaptability",
+"Problem Solving",
+"Empathy",
+"Proactivity",
+"Continuous Learning",
+"Time Management",
+"Mentorship",
+"Punctuality",
+"Commitment",
+"Charisma",
+"Work Ethic"
+
+      ]
+    },
+
+    "EXPERIENCE": {
+      "TITLE": "EXPERIENCE",
+      "ITEMS": [
+        {
+          "POSITION": "Fullstack Developer",
+          "PERIOD": "01/2024 - Present | Freelancer",
+          "DESCRIPTION": "As a junior fullstack developer, I work on developing frontend components using Angular and TypeScript, ensuring that the interface is responsive and works well on different devices. Also I implement validations to ensure correct data. On the backend, I build APIs with Node.js and use Prisma to interact with SQL databases efficiently, performing complex queries and maintaining code organization. I work collaboratively with the team, learning and improving my skills SQL and TypeScript skills to ensure efficient integration between frontend and backend in each project."
+        },
+        {
+          "POSITION": "Administrative Manager",
+          "PERIOD": "01/2020 - 04/2023 | Autoweb Veículos",
+          "DESCRIPTION": "As manager of a vehicle agency, I was responsible for inspecting and pricing all cars that could be acquired by the store, through the sale and after-sales of the vehicles, ensuring that customers received quality service and that all stages of the negotiation were completed efficiently. Managed commercial relationships with suppliers and customers, always seeking satisfaction and loyalty. I also organized the teams, monitoring their performance and promoting employee training. In addition In addition, I worked on conflict resolution, ensuring a harmonious work environment and resolving problems in effective ways."
+        },
+        {
+          "POSITION": "Administrative Assistant",
+          "PERIOD": "05/2023 - 06/2023 | João Centro Automotivo",
+          "DESCRIPTION": "Despite having worked as an administrative assistant in a mechanical workshop for a short period, covering theabsence of an employee on vacation, I was able to acquire valuable technical knowledge about vehicles and processes mechanics. This period gave me a deeper understanding of the technical aspects related to car maintenance and repair. Additionally, I was able to improve my customer service skills, learning to deal with different types of demands and situations. Also evolving my ability to solve conflicts effectively, even in delicate and stressful situations, always focusing on satisfaction customer service and resolving problems in an agile and professional manner. Always standing out in my adapting to the environment I am in."
+        }
+      ]
+    }
+  },
+
+  "PROJECTS": {
+    "TITLE": "Projects",
+    "CARDS": [
+      {
+        "TITLE": "SOS Baba",
+        "DESCRIPTION": "Project developed to bring together in a single system, the possibility for nannies to get job opportunities work, and mothers get reliable people to provide caregiving services."
+      },
+      {
+        "TITLE": "Kilombu",
+        "DESCRIPTION": "System created for a clothing store, with the aim of make it more accessible to people who are interested in African culture, the clothes belonging to it."
+      },
+      {
+        "TITLE": "FAM",
+        "DESCRIPTION": "System designed to facilitate contact between exhibitors and fashion retailers. Making contact between them more direct and simplified via the web, working with the display of their products and an iterative dashboard for each establishment."
+      },
+      {
+        "TITLE": "Coming Soon",
+        "DESCRIPTION": "Coming Soon..."
+      }
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "NAVBAR": {
+    "HOME": "Inicio",
+    "ABOUT": "Acerca de",
+    "PROJECTS": "Proyectos"
+  },
+  "HOME": {
+    "HEADING": "Transformando ideas en realidad a través de código y diseño.",
+    "DESCRIPTION": "Como un habilidoso Desarrollador Fullstack, estoy dedicado a transformar ideas en aplicaciones web innovadoras. Conoce un poco más sobre mí y mira algunos de mis proyectos.",
+    "BUTTON": "Currículum"
+  },
+  "ABOUT": {
+    "TITLE": "¡La pasión alimenta el propósito!",
+    "BIOGRAPHY": {
+      "HEADING": "SOBRE MÍ",
+      "PARAGRAPH_1": "Soy un joven de 23 años, estudiante de Sistemas de Información, con experiencia práctica como Desarrollador Fullstack Freelancer, adquirida a lo largo de los últimos años. Esta experiencia me ha proporcionado una visión integral del ciclo de desarrollo de aplicaciones web, además del dominio de tecnologías como TypeScript, JavaScript, Angular, HTML y CSS en el frontend, y Node.js en el backend, con sólido conocimiento en bases de datos SQL.",
+      "PARAGRAPH_2": "Durante la carrera, participé en diversos proyectos académicos, abarcando desde el desarrollo de aplicaciones web hasta soluciones con herramientas de low-code, como Sydle One, lo que me permitió desarrollar un enfoque técnico diversificado y eficaz. Paralelamente, he buscado mejorar mis competencias profesionales, estando actualmente en proceso de certificación en Java para ampliar mi conjunto de habilidades y conocimientos."
+    },
+    "GRADE": {
+    "TITLE": "FORMACIÓN",
+    "ITEMS": [
+      {
+        "COLLEGE": "PUC Minas - Pontifícia Universidade Católica de Minas Gerais",
+        "COURSE": "SISTEMAS DE INFORMACIÓN",
+        "STARTEND": "Previsión: 2023 - 2027"
+      },
+      {
+        "COLLEGE": "UFMG - Universidade Federal de Minas Gerais",
+        "COURSE": "GESTIÓN DE SERVICIOS DE SALUD",
+        "STARTEND": "Interrumpido: 2019 - 2023"
+      }
+    ]
+    },
+    "SKILLS": {
+      "TITLE": "HABILIDADES",
+      "LIST": [
+        "Desarrollo Web",
+        "Fullstack",
+        "Lógica de Programación",
+        "Código Limpio",
+        "Ágil/Scrum",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "Angular",
+        "Java",
+        "Node.js",
+        "Prisma ORM",
+        "MySQL",
+        "Base de Datos",
+        "Comunicativo",
+        "Trabajo en Equipo",
+        "Adaptabilidad",
+        "Resolución de Problemas",
+        "Empatía",
+        "Proactividad",
+        "Aprendizaje Continuo",
+        "Gestión del Tiempo",
+        "Mentoría",
+        "Puntualidad",
+        "Compromiso",
+        "Carisma",
+        "Ética de Trabajo"
+      ]
+    },
+    "EXPERIENCE": {
+      "TITLE": "EXPERIENCIA",
+      "ITEMS": [
+        {
+          "POSITION": "Desarrollador Fullstack",
+          "PERIOD": "01/2024 - Actualmente | Freelancer",
+          "DESCRIPTION": "Como desarrollador fullstack junior, trabajo en el desarrollo de componentes frontend utilizando Angular y TypeScript, asegurando que la interfaz sea responsiva y funcione bien en diversos dispositivos. También implemento validaciones para garantizar datos correctos. En el backend, construyo APIs con Node.js y utilizo Prisma para interactuar con bases de datos SQL de forma eficiente, realizando consultas complejas y manteniendo la organización del código. Trabajo de forma colaborativa con el equipo, aprendiendo y mejorando mis habilidades en SQL y TypeScript para garantizar la integración eficiente entre frontend y backend en cada proyecto."
+        },
+        {
+          "POSITION": "Gerente Administrativo",
+          "PERIOD": "01/2020 - 04/2023 | Autoweb Vehículos",
+          "DESCRIPTION": "Como gerente de una agencia de vehículos, era responsable de la inspección y tasación de todos los automóviles que pudieran ser adquiridos por la tienda, de la venta y posventa de los vehículos, asegurando que los clientes recibieran una atención de calidad y que todas las etapas de la negociación fueran concluidas con eficiencia. Gestionaba las relaciones comerciales con proveedores y clientes, siempre buscando la satisfacción y fidelización. También organizaba los equipos, acompañando su desempeño y promoviendo la capacitación de los colaboradores. Además, actuaba en la resolución de conflictos, asegurando un ambiente de trabajo armonioso y solucionando problemas de forma eficaz."
+        },
+        {
+          "POSITION": "Auxiliar Administrativo",
+          "PERIOD": "05/2023 - 06/2023 | João Centro Automotivo",
+          "DESCRIPTION": "A pesar de haber trabajado como auxiliar administrativo en un taller mecánico por un período corto, cubriendo la ausencia de un colaborador de vacaciones, pude adquirir valiosos conocimientos técnicos sobre vehículos y procesos mecánicos. Este período me proporcionó una comprensión más profunda de los aspectos técnicos relacionados con el mantenimiento y reparación de autos. Además, pude mejorar mis habilidades en atención al cliente, aprendiendo a lidiar con diferentes tipos de demandas y situaciones. También evolucioné mi capacidad para resolver conflictos de forma eficaz, incluso en situaciones delicadas y estresantes, manteniendo siempre el enfoque en la satisfacción del cliente y en la resolución de problemas de manera ágil y profesional. Siempre destacándome por mi adaptación al entorno en el que estoy."
+        }
+      ]
+    }
+  },
+  "PROJECTS": {
+    "TITLE": "Proyectos",
+    "CARDS": [
+      {
+        "TITLE": "SOS Baba",
+        "DESCRIPTION": "Proyecto desarrollado para reunir en un único sistema la posibilidad de que niñeras encuentren oportunidades de trabajo y madres encuentren personas confiables para prestar el servicio de cuidado."
+      },
+      {
+        "TITLE": "Kilombu",
+        "DESCRIPTION": "Sistema creado para una tienda de ropa, con el objetivo de hacer más accesible para las personas interesadas en la cultura africana las prendas de vestir pertenecientes a ella."
+      },
+      {
+        "TITLE": "FAM",
+        "DESCRIPTION": "Sistema diseñado para facilitar el contacto entre expositores y minoristas del sector de la moda. Haciendo el contacto entre ellos más directo y simplificado a través de la web, trabajando con la exhibición de sus productos y con un panel interactivo para cada establecimiento."
+      },
+      {
+        "TITLE": "Próximamente",
+        "DESCRIPTION": "Próximamente..."
+      }
+    ]
+  }
+}

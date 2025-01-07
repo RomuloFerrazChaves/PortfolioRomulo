@@ -1,0 +1,47 @@
+<main>
+  <div id="body">
+  <section id="login-form">
+
+     <div class="title">
+      <img src="../../../assets/images/Logo.svg" alt="">
+      <h2>{{title}}</h2>
+     </div>
+
+     <ng-content></ng-content>
+
+     <!-- <div class="form">
+
+      <form [formGroup]="formLogin">
+
+        <mat-form-field class="input">
+          <mat-label>Email Adress</mat-label>
+          <input matInput type="email" formControlName="email" placeholder="user@email.com">
+          <span><img src="../../../../assets/" alt=""></span>
+          <mat-error>
+          </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="input">
+          <mat-label>Password</mat-label>
+          <input matInput type="password" formControlName="password" placeholder="*********">
+          <mat-error>
+          </mat-error>
+        </mat-form-field>
+
+      </form>
+
+     </div> -->
+
+     <div class="botoes">
+        <button (click)="submit()" class="botao-primario">{{primaryBtnText}}</button>
+          <div class="divider">OR</div>
+        <button (click)="navigate()" class="botao-secundario">{{secondaryBtnText}}</button>
+     </div>
+  </section>
+
+  <section id="img">
+     <h2>You Should, Move It!</h2>
+     <img src="../../../assets/images/ImagemLogin.png" alt="">
+  </section>
+  </div>
+</main>

@@ -1,0 +1,246 @@
+<mat-drawer-container class="example-container">
+
+  <mat-drawer #drawer class="example-sidenav" mode="over">
+    <div class="menu">
+
+      <div class="sections">
+        <h1 [ngStyle]="{'color': section === 'home' ? '#00674f' : '#212121'}" (click)="changeSection('home')">
+          {{ 'NAVBAR.HOME' | translate }}
+          <span [ngStyle]="{'width': section === 'home' ? '100%' : '0px'}"></span>
+        </h1>
+
+        <h1 [ngStyle]="{'color': section === 'about' ? '#00674f' : '#212121'}" (click)="changeSection('about')">
+          {{ 'NAVBAR.ABOUT' | translate }}
+          <span [ngStyle]="{'width': section === 'about' ? '100%' : '0px'}"></span>
+        </h1>
+
+        <h1 [ngStyle]="{'color': section === 'projects' ? '#00674f' : '#212121'}" (click)="changeSection('projects')">
+          {{ 'NAVBAR.PROJECTS' | translate }}
+          <span [ngStyle]="{'width': section === 'projects' ? '100%' : '0px'}"></span>
+        </h1>
+      </div>
+
+      <div class="redes">
+        <button class="contact" (click)="copyPhone()"><img src="../../../assets/icons/telefone.svg" alt=""></button>
+        <button class="contact" (click)="copyEmail()"><img src="../../../assets/icons/email.svg" alt=""></button>
+        <button class="github" (click)="openNewTab('github')"><img src="../../../assets/icons/icons8-github.svg" alt=""></button>
+        <button class="instagram" (click)="openNewTab('instagram')"><img src="../../../assets/icons/icons8-instagram.svg" alt=""></button>
+        <button class="linkedin" (click)="openNewTab('linkedin')"><img src="../../../assets/icons/icons8-linkedin.svg" alt=""></button>
+      </div>
+
+    </div>
+  </mat-drawer>
+
+  <mat-drawer-content>
+
+    <div id="body">
+
+      <div id="nav-bar">
+
+        <div class="menu-mobile" style="display: none;">
+          <img (click)="drawer.toggle()" src="../../../assets/icons/menu-svgrepo-com.svg" alt="">
+        </div>
+
+        <div class="sections">
+          <h1 [ngStyle]="{'color': section === 'home' ? '#00674f' : '#212121'}" (click)="changeSection('home')">
+            {{ 'NAVBAR.HOME' | translate }}
+            <span [ngStyle]="{'width': section === 'home' ? '100%' : '0px'}"></span>
+          </h1>
+
+          <h1 [ngStyle]="{'color': section === 'about' ? '#00674f' : '#212121'}" (click)="changeSection('about')">
+            {{ 'NAVBAR.ABOUT' | translate }}
+            <span [ngStyle]="{'width': section === 'about' ? '100%' : '0px'}"></span>
+          </h1>
+
+          <h1 [ngStyle]="{'color': section === 'projects' ? '#00674f' : '#212121'}" (click)="changeSection('projects')">
+            {{ 'NAVBAR.PROJECTS' | translate }}
+            <span [ngStyle]="{'width': section === 'projects' ? '100%' : '0px'}"></span>
+          </h1>
+        </div>
+
+        <div class="logo">
+          RF
+        </div>
+
+        <div class="social_medias">
+          <a href="https://www.linkedin.com/in/romulo-ferraz-dev/" target="_blank"><img
+              src="../../../assets/icons/icons8-linkedin.svg" alt=""></a>
+
+          <a href="https://www.instagram.com/romulo_ferraz22/" target="_blank"><img
+              src="../../../assets/icons/icons8-instagram.svg" alt=""></a>
+
+          <a href="https://github.com/RomuloFerrazChaves" target="_blank"><img
+              src="../../../assets/icons/icons8-github.svg" alt=""></a>
+
+          <a href="#" (click)="copyPhone()"><img src="../../../assets/icons/telefone.svg" alt=""></a>
+
+          <a href="#" (click)="copyEmail()"><img src="../../../assets/icons/email.svg" alt=""></a>
+          <mat-form-field>
+            <mat-select (selectionChange)="changeLanguage($event.value)" [(value)]="selectedLanguage">
+              <mat-option value="pt">PT</mat-option>
+              <mat-option value="en">EN</mat-option>
+              <mat-option value="es">ES</mat-option>
+            </mat-select>
+          </mat-form-field>
+
+
+          <!-- <img (click)="ChangeLightmode()" [src]="lightMode()" alt="" [ngStyle]="{'filter': themeMode === 'dark' ? 'brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7496%) hue-rotate(343deg) brightness(112%) contrast(100%)' : 'brightness(0) saturate(100%) invert(12%) sepia(0%) saturate(3094%) hue-rotate(321deg) brightness(95%) contrast(96%)'} "> -->
+        </div>
+
+
+
+      </div>
+
+      <div id="home">
+        <div class="self"></div>
+
+        <div class="introducing">
+          <h1>{{ 'HOME.HEADING' | translate }}</h1>
+          <p>{{ 'HOME.DESCRIPTION' | translate }}</p>
+          <div style="display: flex; align-items: center; margin-top: 20px;  ">
+            <button class="botao-dark" (click)="downloadPDF()">{{ 'HOME.BUTTON' | translate }}<img
+                src="../../../assets/icons/open_in_new.svg" alt="">
+            </button>
+            <a id="downloadLink" href="../../../assets/docs/CurriculoRomulo.pdf" download="CurriculoRomulo.pdf"
+              style="display:none"></a>
+            <!-- <span style="cursor: pointer; padding: 1px; color: #212121; text-decoration: underline;">Clique aqui para baixar o meu CV</span> -->
+          </div>
+
+        </div>
+      </div>
+
+      <div id="about">
+        <h1 class="title">{{ 'ABOUT.TITLE' | translate }}</h1>
+
+        <div class="content">
+          <div class="bio">
+            <h2>{{ 'ABOUT.BIOGRAPHY.HEADING' | translate }}</h2>
+            <p>{{ 'ABOUT.BIOGRAPHY.PARAGRAPH_1' | translate }}
+            </p>
+            <p>{{ 'ABOUT.BIOGRAPHY.PARAGRAPH_2' | translate }}</p>
+          </div>
+
+          <div class="image"></div>
+        </div>
+
+        <div class="grade">
+          <h2>{{ 'ABOUT.GRADE.TITLE' | translate }}</h2>
+
+          <div class="graduation" *ngFor="let grad of 'ABOUT.GRADE.ITEMS' | translate">
+            <h1>{{ grad.COLLEGE }}</h1>
+            <h2>{{ grad.COURSE }}</h2>
+            <p>{{ grad.STARTEND }}</p>
+          </div>
+        </div>
+
+        <div class="skills">
+          <h2>{{ 'ABOUT.SKILLS.TITLE' | translate }}</h2>
+          <div class="chips">
+            <h1 *ngFor="let skill of 'ABOUT.SKILLS.LIST' | translate">{{ skill }}</h1>
+          </div>
+
+        </div>
+
+        <div class="experience">
+          <h2>{{ 'ABOUT.EXPERIENCE.TITLE' | translate }}</h2>
+
+          <div class="exp" *ngFor="let exp of 'ABOUT.EXPERIENCE.ITEMS' | translate">
+            <h1>{{ exp.POSITION }}</h1>
+            <h2>{{ exp.PERIOD }}</h2>
+            <p>{{ exp.DESCRIPTION }}</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="projects">
+        <h2>{{ 'PROJECTS.TITLE' | translate }}</h2>
+
+        <div class="cards">
+
+          <a href="https://sosbaba.com.br/home" target="_blank">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front" style="background-image: url(../../../assets/images/baba.png)">
+
+                </div>
+                <div class="flip-card-back" style="background: linear-gradient(90deg, #1bf1ff, #03a9dd)">
+                  <p class="title">{{ firstDescription }}</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front" style="background-image: url(../../../assets/images/kilombu.png)">
+
+              </div>
+              <div class="flip-card-back" style="background: linear-gradient(90deg, #ffb74c, #bb721d)">
+                <p class="title">{{ secondDescription }}</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://feiramodaonline.com.br/" target="_blank">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front" style="background-image: url(../../../assets/images/fam.png)">
+
+                </div>
+                <div class="flip-card-back" style="background: linear-gradient(90deg, #545454, #212121)">
+                  <p class="title">{{ thisrtyDescription }}</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <p class="title">{{ fourthyDescription }}</p>
+              </div>
+              <div class="flip-card-back" style="background-color: #212121;">
+                <p class="title">{{ fourthyDescription }}</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <p class="title">{{ fourthyDescription }}</p>
+              </div>
+              <div class="flip-card-back" style="background-color: #212121;">
+                <p class="title">{{ fourthyDescription }}</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <p class="title">{{ fourthyDescription }}</p>
+              </div>
+              <div class="flip-card-back" style="background-color: #212121;">
+                <p class="title">{{ fourthyDescription }}</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+      <div id="footer">
+        <img (click)="changeSection('home')" src="../../../assets/icons/home.svg" alt="">
+      </div>
+
+
+    </div>
+
+  </mat-drawer-content>
+
+</mat-drawer-container>
